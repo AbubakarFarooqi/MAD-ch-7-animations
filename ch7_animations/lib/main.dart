@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '/widgets/AnimatedContainer.dart';
 import '/widgets/animated_cross_fade.dart';
+import '/widgets/animated_opacity.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -12,6 +13,8 @@ void main() {
             AnimatedContainerWidget(),
             Divider(),
             AnimatedCrossFadeWidget(),
+            Divider(),
+            AnimatedOpacityWidget(),
           ],
         ),
       ),
