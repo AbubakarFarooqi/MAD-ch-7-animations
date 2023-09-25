@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '/widgets/AnimatedContainer.dart';
+import '/widgets/animated_cross_fade.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -9,6 +10,8 @@ void main() {
         child: Column(
           children: <Widget>[
             AnimatedContainerWidget(),
+            Divider(),
+            AnimatedCrossFadeWidget(),
           ],
         ),
       ),
